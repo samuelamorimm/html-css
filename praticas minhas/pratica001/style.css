@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(199, 4, 4), rgb(61, 1, 1));
+    margin: 0px;
+    padding: 20px;
+    height: 160px;
+}
+
+header > h1 {
+    margin-bottom: 70px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.219);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+       
+}
+
+nav > a:hover {
+    background-color: rgba(255, 255, 255, 0.884);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+h2{
+    background-image: linear-gradient(to right,red, white);
+    padding: 10px;
+    color: white;
+}

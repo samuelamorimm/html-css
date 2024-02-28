@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 2em;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+       a:visited {
+        color: aqua;
+       }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            color: azure;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        .especial::before {
+            content: '>>';
+        }
+
+        .especial::after{
+            content: ">>";
+        }
+    </style>
+
+</head>
+<body>
+    <a href="https://www.youtube.com/curso%20em%20video" target="_blank">YOutbe</a>
+    <br>
+    <a href="https://www.facebook.
+    com" target="_blank">Facebook.com</a>
+    <br>
+    <a href="instagram.
+    com" target="_blank" class="especial">Instagram</a>
+    
+</body>
+</html>

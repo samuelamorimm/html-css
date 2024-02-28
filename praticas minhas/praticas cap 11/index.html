@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu dnv</title>
+</head>
+<body>
+    <h1>Veja aqui uma foto minha:</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/eu-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/eu-m.png" type="image/png">
+        <img src="imagens/eu-g.png" alt="imagem flexível">
+    </picture>
+    <hr>
+    <p>Faça o download das imagens abaixo:</p>
+    <ul>
+        <li>TAM G</li>
+        <a href="curriculo.pdf" download><button>download</button></a>
+        <li>TAM M</li>
+        <a href="imagens/eu-m.png" download=""><button>download</button></a>
+        <li>TAM P</li>
+        <a href="imagens/eu-p.png" download><button>download</button></a>
+    </ul>
+</body>
+</html>

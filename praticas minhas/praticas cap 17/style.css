@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF6500;
+}
+
+header {
+    background-color: #0060B1;
+    height: 120px;
+
+}
+
+header p {
+    background-color: white;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 15px;
+    color: rgb(94, 93, 93);
+    border-radius: 7px;
+}
+
+nav {
+    background-color: #4b2810;
+    padding: 15px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px; 
+    border-left: 3px solid rgb(255, 255, 255);
+}
+
+main {
+    background-color: white;
+}
+
+main h2 {
+    background-color: #FF6500;
+    padding: 20px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575);
+}
+
+ 
+
+
+.produtos {
+    width: 50%;
+    background-color: #0060B1;
+    
+
+}
+
+footer {
+    background-color: #003A6A;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+footer h3 {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    padding: 5px 0px 25px 0px;
+} 
+
+footer p {
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 30% ;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.521);
+}
+
+footer button {
+    background-color: #FF6500;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
