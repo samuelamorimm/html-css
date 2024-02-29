@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('imagens/wallpaper001.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 150px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, blue, rgb(12, 1, 71));
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.699);
+}
+
+header h1 {
+    padding-bottom: 10px;
+    padding-top: 35px;
+    color: white;
+    font-style: italic;
+}
+
+header p {
+    color: white;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgb(238, 155, 1);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.568);
+}
+
+nav a {
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.418);
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 05px;
+    
+}
+
+nav a:hover {
+    font-weight: bold;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.418);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    transition-duration: 0.5s;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 05px;
+}
+
+main {
+    margin: 30px 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 40px;
+    box-shadow: 0px 0px 7px black;
+
+}
+
+main h1 {
+    text-align: center;
+    
+}
+
+.quadrado {
+    
+    margin: 25px 10px;
+    background-color: orange;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 4px solid blue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+#q1:hover {
+    transition-duration: 2s;
+    background-image: url('imagens/monitor.jpg');
+    
+}
+
+#q2:hover {
+    background-image: url('imagens/notebook.jpg');
+}
+
+#q3:hover {
+    background-image: url('imagens/ps5.jpg');
+}
+
+footer {
+    background-color: blue;
+    height: 50px;
+    box-shadow: 0px 0px 7px black;
+    padding: 10px;
+    text-shadow: 0px 0px 7px black;
+}
+
+footer h2  {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    
+}
