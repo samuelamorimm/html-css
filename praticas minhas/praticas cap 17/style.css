@@ -42,26 +42,49 @@ nav a {
 
 main {
     background-color: white;
+    padding-bottom: 30px;
 }
 
 main h2 {
+    
     background-color: #FF6500;
     padding: 20px;
     color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575);
+    margin-bottom: 30px;
 }
 
- 
-
-
-.produtos {
-    width: 50%;
-    background-color: #0060B1;
+#container  {
+    background-color: white;
+    width: 690px;
     
+    border: 1px solid black;
+    margin: auto;
+}
 
+.quadrado {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid  black;
+    margin: 12px;
+    
+}
+
+#q1 {
+    background-image: url('imagens/monitor.jpg');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#text1 {
+    margin: 0px;
+    text-justify: distribute;
 }
 
 footer {
+    margin-top: 40px;
     background-color: #003A6A;
 }
 
@@ -83,9 +106,15 @@ footer p {
     margin: 10px;
     width: 300px;
     padding: 10px;
-    margin: 10px 30% ;
+    margin: auto;
     border-radius: 7px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.521);
+}
+
+#email {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer button {
