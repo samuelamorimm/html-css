@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(86, 86, 216), #04043f);
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+
+}
+
+header h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: lighter;
+    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+}
+
+#perfil {
+    background-image: url('https://t1.ea.ltmcdn.com/pt/posts/2/3/3/o_guaxinim_como_animal_de_estimacao_2332_600_square.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+}
+
+main h2 {
+    margin: 10px;
+    color: rgb(11, 11, 87);
+    background-image: linear-gradient(to right, rgb(138, 138, 247), transparent);
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.473);
+}
+
+main hr {
+    margin-left: 10px;
+}
+
+main p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #04043f;
+    color: white;
+    margin-top: 50px;
+    padding: 1px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 200;
+    padding: 0px;
+    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+}
